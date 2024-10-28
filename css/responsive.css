@@ -14,6 +14,16 @@
 
 }
 
+@media (min-width: 1200px) {
+
+/* dashboard-center */
+.dashboard-center {
+    min-height: 100vh;
+}
+/* dashboard-center */
+
+}
+
 @media (min-width: 1400px) and (max-width: 1439px) {
 
 /* dashboard-right */
@@ -205,8 +215,19 @@
     width: 20px;
     height: 20px;
 }
+.btn-nav-close {
+    cursor: pointer;
+}
 .btn-nav-close svg path {
     fill: #369FFF;
+    transition: all ease-in-out 300ms;
+    -webkit-transition: all ease-in-out 300ms;
+    -ms-transition: all ease-in-out 300ms;
+    -o-transition: all ease-in-out 300ms;
+    -moz-transition: all ease-in-out 300ms;
+}
+.btn-nav-close:hover svg path {
+    fill: #303030;
 }
 .nav-mobile-open-overlay {
     position: absolute;
